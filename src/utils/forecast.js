@@ -14,7 +14,7 @@ const forecast = (lat, lon, callback) => {
             //     feelslike:  body.current.feelslike
             // })
             callback(undefined, 
-                'Currently it is ' + body.current.weather_descriptions[0] + '. It is currently ' + body.current.temperature + ' but feels like ' + body.current.feelslike
+                'Currently it is ' + body.current.weather_descriptions[0] + '. It is currently ' + body.current.temperature + ' but feels like ' + body.current.feelslike + '.  The wind speed is ' + body.current.wind_speed + '.'
             )            
         }
     })
